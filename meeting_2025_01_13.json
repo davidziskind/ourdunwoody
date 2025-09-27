@@ -1,0 +1,88 @@
+{
+    "date": "January 13, 2025",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "absent",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Move Item #2 from Consent Agenda",
+            "description": "Motion to move item #2 (Truist Lighthouse Project presentation) from consent agenda to immediately following police officers swearing in.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "absent", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • December 09, 2024 meeting minutes • Contract with Georgia Environmental Protection Division for Dunwoody Nature Center Wetland Improvements funding",
+            "introducedBy": "Seconder",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "absent", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "American Rescue Plan Grant Remaining Funding",
+            "description": "Allocation of remaining $25,000 ARPA funding to Community Assistance Center for general assistance and Summit Counseling for direct counseling services.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "absent", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "RZ 24-02 Rezoning Approval (Second Read)",
+            "description": "Second read approval of RZ 24-02 to rezone 2480, 2526 Mount Vernon Road & 2495 Jett Ferry Road from NS to C-1 with two additional conditions.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "absent", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "absent", "yes"],
+            "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Administration of Oath of Office - Multiple Officers",
+            "description": "Mayor Deutsch administered oath of office to Sgt. Austin Chadwick and Officers Sadarius Hutcherson, Edward McGorda, and Trey Wanstreet.",
+            "officiant": "Mayor Deutsch"
+        },
+        {
+            "title": "Truist Lighthouse Project Presentation",
+            "description": "Truist Bank donated rowing machine and special backpacks to Dunwoody Police Department's Peer Support Group as part of their Lighthouse Project.",
+            "presenter": "Ali Mahbod and Katherine Hilton (Truist Branch Manager)"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Supplemental Project Agreement with GDOT for North Shallowford Road Path Project",
+            "description": "Agreement with Georgia Department of Transportation for North Shallowford Road path project.",
+            "presenter": "Michelle Hirose"
+        },
+        {
+            "title": "HVAC Replacement for Dunwoody City Hall",
+            "description": "Proposal for City Hall HVAC system replacement by Addison Smith Mechanical Contractors for $409,081.",
+            "presenter": "John Gates"
+        },
+        {
+            "title": "Agreement with Georgia Power for Streetlights",
+            "description": "Streetlight agreement for Meadow Lane Road and Crown Pointe Parkway with funding split equally between PCID and City.",
+            "presenter": "Tiffany Siegel"
+        }
+    ],
+    "notes": [
+        "City Manager thanked Public Works, Public Safety, and Communications for winter storm and tornado response",
+        "Council Member Price absent from meeting"
+    ]
+}

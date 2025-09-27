@@ -1,0 +1,73 @@
+{
+    "date": "March 11, 2024",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • February 26, 2024 meeting minutes • Second read text amendment to Chapter 2 (Board of Ethics) • Second read text amendment to Chapter 4 (Alcohol License Review Board) • Funding authorization for 1302 Center Drive emergency storm repairs • Funding authorization for 2707 Wood Hollow Drive storm repairs",
+            "introducedBy": "Seconder",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Resolution for Budget Amendment for Fiscal Year 2023",
+            "description": "Approval of resolution for budget amendment cleanup for fiscal year 2023, with revenue expected to exceed expenditures and close to ten month reserve in general fund.",
+            "introducedBy": "Harris",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Purchase Signal Poles for Pedestrian Hybrid Beacon Installations",
+            "description": "Approval to purchase signal poles for pedestrian hybrid beacon installations on Perimeter Center West and North Peachtree Road, purchased ahead of contract award due to lead time.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to adjourn for executive session to discuss real estate.",
+            "introducedBy": "Price",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "MMSP 24-01: Major Master Sign Plan for Kingswood Church",
+            "description": "First read of major master sign plan for 4896 N Peachtree Road (Kingswood Church) requesting two new signs and exemption from sign code.",
+            "address": "4896 N Peachtree Road",
+            "applicant": "Kingswood Church",
+            "recommendation": "Planning Commission unanimously recommended approval",
+            "action": "Moved to consent agenda for next meeting"
+        },
+        {
+            "title": "MMSP 24-02: Major Master Sign Plan for Emory Healthcare",
+            "description": "First read of major master sign plan for 4553 N Shallowford Road (Emory Healthcare) proposing to keep one existing wall sign, add two new wall signs and eight new wayfinding signs.",
+            "address": "4553 N Shallowford Road",
+            "applicant": "Emory Healthcare",
+            "recommendation": "Staff recommends approval with lighting condition",
+            "lightingCondition": "Timer on wall sign light facing Pernoshal Court to be turned off 10:30 PM and on at 6:00 AM"
+        }
+    ]
+}

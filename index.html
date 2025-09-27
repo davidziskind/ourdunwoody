@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citizen's Guide to Dunwoody</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .disclaimer {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 30px;
+            color: white;
+            font-size: 0.9em;
+        }
+
+        .disclaimer a {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .disclaimer a:hover {
+            text-decoration: underline;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 3.2em;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            background: linear-gradient(45deg, #ffd700, #ffffff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .header p {
+            font-size: 1.3em;
+            opacity: 0.9;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        }
+
+        .main-features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+
+        .feature-card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+            transition: left 0.5s;
+        }
+
+        .feature-card:hover::before {
+            left: 100%;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+
+        .feature-card h3 {
+            color: #4a5568;
+            font-size: 1.4em;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .feature-card p {
+            color: #666;
+            font-size: 1.05em;
+            line-height: 1.5;
+        }
+
+        .icon {
+            font-size: 1.8em;
+            color: #667eea;
+        }
+
+        .coming-soon {
+            background: linear-gradient(135deg, #ffd700, #ffed4e);
+            color: #333;
+            font-weight: bold;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+
+        .links-section {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .links-section h2 {
+            color: #4a5568;
+            font-size: 2em;
+            margin-bottom: 30px;
+            text-align: center;
+            position: relative;
+        }
+
+        .links-section h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 3px;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            border-radius: 2px;
+        }
+
+        .links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .link-category h3 {
+            color: #667eea;
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+
+        .link-list {
+            list-style: none;
+        }
+
+        .link-list li {
+            margin-bottom: 12px;
+        }
+
+        .link-list a {
+            color: #4a5568;
+            text-decoration: none;
+            font-size: 1.05em;
+            transition: all 0.3s ease;
+            display: inline-block;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        .link-list a::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+            transition: transform 0.3s ease;
+        }
+
+        .link-list a:hover {
+            color: #667eea;
+            transform: translateX(5px);
+        }
+
+        .link-list a:hover::before {
+            transform: translateX(5px);
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2.5em;
+            }
+            
+            .header p {
+                font-size: 1.1em;
+            }
+            
+            .container {
+                padding: 15px;
+            }
+            
+            .feature-card {
+                padding: 25px;
+            }
+            
+            .links-section {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Disclaimer -->
+        <div class="disclaimer">
+            <strong>Disclaimer:</strong> This site is a personal project of <a href="https://www.votedz.com/" target="_blank">David Ziskind</a> and is not affiliated with the City of Dunwoody. Please bring any errors to my attention to be addressed promptly.
+        </div>
+
+        <!-- Header -->
+        <div class="header">
+            <h1>Citizen's Guide to Dunwoody</h1>
+            <p>Your comprehensive resource for local government transparency and civic engagement</p>
+        </div>
+
+        <!-- Main Features -->
+        <div class="main-features">
+            <div class="feature-card" onclick="window.location.href='voting_transparency_dashboard.html'">
+                <h3><span class="icon">📊</span> Voting Transparency Dashboard</h3>
+                <p>Track how your Dunwoody City Council members vote on important issues. View voting records, patterns, and detailed breakdowns of council decisions to stay informed about local governance.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="coming-soon">Coming Soon</div>
+                <h3><span class="icon">🔍</span> Searchable Meeting Minutes</h3>
+                <p>Easily search through Dunwoody City Council meeting minutes to find discussions on topics that matter to you. Access historical records and stay up-to-date with recent proceedings.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3><span class="icon">🤖</span> Get Help With Dunwoody Issues</h3>
+                <p>Need help navigating city services or have questions about local policies? Our AI-powered chatbot can guide you to the right resources and provide answers to common Dunwoody-related questions. Look for the chat widget in the bottom right corner!</p>
+            </div>
+        </div>
+
+        <!-- Links Section -->
+        <div class="links-section">
+            <h2>Helpful Resources</h2>
+            <div class="links-grid">
+                <div class="link-category">
+                    <h3>Official Resources</h3>
+                    <ul class="link-list">
+                        <li><a href="https://www.dunwoodyga.gov/" target="_blank">City of Dunwoody Georgia (Official Website)</a></li>
+                        <li><a href="https://dunwoodyga.policetocitizen.com/Home" target="_blank">Dunwoody Police 2 Citizen Portal</a></li>
+                        <li><a href="https://dunwoodyga.mycusthelp.com/webapp/_rs/(S(lau3d0owbdezkuqsxzsnwt5l))/supporthome.aspx" target="_blank">Submit an Open Records Request</a></li>
+                    </ul>
+                </div>
+
+                <div class="link-category">
+                    <h3>News & Information</h3>
+                    <ul class="link-list">
+                        <li><a href="https://www.dunwoodyga.gov/community/news-room/city-news" target="_blank">City of Dunwoody News Room</a></li>
+                        <li><a href="https://dunwoodynorth.blogspot.com/" target="_blank">Heneghan's Dunwoody Blog</a></li>
+                    </ul>
+                </div>
+
+                <div class="link-category">
+                    <h3>Online Discussions</h3>
+                    <ul class="link-list">
+                        <li><a href="https://www.facebook.com/groups/dunwoodyforum/" target="_blank">Dunwoody Area Community Forum (Facebook)</a></li>
+                        <li><a href="https://www.facebook.com/groups/dunwoody.uncensored" target="_blank">Dunwoody: Uncensored (Facebook)</a></li>
+                        <li><a href="https://www.reddit.com/r/Dunwoody/" target="_blank">Reddit: r/Dunwoody</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>Building transparency and civic engagement in Dunwoody, one click at a time.</p>
+        </div>
+    </div>
+
+    <!-- Chatbase AI Chatbot -->
+    <script>
+    (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="M1E4EdQ96OW8pRd91GWsB";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+    </script>
+</body>
+</html>

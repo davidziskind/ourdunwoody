@@ -1,0 +1,108 @@
+{
+    "date": "October 15, 2024",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present (electronically)",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present (Mayor Pro Tem)",
+        "Lautenbacher": "absent",
+        "Price": "present",
+        "Seconder": "absent"
+    },
+    "motions": [
+        {
+            "title": "Remove Item #9 from Consent Agenda",
+            "description": "Motion to remove item #9 (Mount Vernon Road at Tilly Road Contract Amendment) from Consent Agenda and place under Business Items.",
+            "introducedBy": "Price",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "absent", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Consent Agenda Approval as Amended",
+            "description": "Approval of consent agenda as amended including: • September 9, 2024 special called work session minutes • September 23, 2024 meeting minutes • 2025 meeting schedules for City Council, Board of Zoning Appeals, and Planning Commission • Playground resurfacing repairs at Brook Run Park",
+            "introducedBy": "Price",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "absent", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Mount Vernon Road at Tilly Road Contract Amendment",
+            "description": "Approval of the Mount Vernon Road at Tilly Mill Road contract amendment.",
+            "introducedBy": "Price",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "no", "yes", "absent", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Text Amendment to Chapter 26 Pole Banners (Second Read)",
+            "description": "Second read approval of text amendment to update pole banners regulations.",
+            "introducedBy": "Price",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "no", "yes", "absent", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Dunwoody Nature Center Stream and Wetland Improvements",
+            "description": "Approval of construction of the Dunwoody Nature Center Stream and Wetland Improvements.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "absent", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Price",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "absent", "yes", "absent"],
+            "result": "passed"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "SLUP 24-01: Starbucks Drive-Through (First Read)",
+            "description": "First read of Special Land Use Permit for Starbucks drive-through facility at 140 Perimeter Center West. Planning Commission unanimously recommended approval.",
+            "presenter": "Allegra DeNooyer",
+            "applicant": "Starbucks Coffee Company",
+            "recommendation": "Staff recommends approval with conditions"
+        },
+        {
+            "title": "Fiscal Year 2025 Budget Presentation",
+            "description": "First read of proposed FY2025 budget of $70.6M (5.29% increase). Budget minimizes use of fund balance and maintains over 6 months reserve.",
+            "presenter": "Richard Platto",
+            "budgetAmount": "$70.6M",
+            "increase": "5.29%"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Administration of Oath of Office - Officer Conner Wood",
+            "description": "Mayor Pro Tem Lambert administered oath of office to Officer Conner Wood.",
+            "officiant": "Mayor Pro Tem Lambert"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Treetop Quest Dunwoody Renewal Agreement",
+            "description": "Presentation of Treetop Quest renewal agreement with staff recommendation for approval.",
+            "presenter": "Rachel Waldron"
+        },
+        {
+            "title": "Contract Amendment with Triscapes",
+            "description": "Contract amendment with Triscapes for road and stormwater maintenance services.",
+            "presenter": "Michael Smith"
+        },
+        {
+            "title": "Charter Amendment Article II, Section 2.13(a)(4) - Prohibitions",
+            "description": "Proposed charter amendment to permit certain gifts/donations for law enforcement aid and employee hardship assistance.",
+            "presenter": "City Manager Eric Linton"
+        },
+        {
+            "title": "Charter Amendment Article II, Section 2.13(e) - Prohibitions",
+            "description": "Proposed charter amendment to permit council members to be employed by governmental entities except Dunwoody or DeKalb County.",
+            "presenter": "City Manager Eric Linton"
+        }
+    ]
+}

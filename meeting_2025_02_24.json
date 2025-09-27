@@ -1,0 +1,83 @@
+{
+    "date": "February 24, 2025",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • February 10, 2025 meeting minutes • Contract with Stewart Brothers for 2025 Paving Contract",
+            "introducedBy": "Lambert",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Move Peachtree Middle School Field Turf Item to Discussion Item #3",
+            "description": "Motion to move agenda item No. 4 (Peachtree Middle School Football Field Turf Conversion) to agenda item No. 3.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for real estate and litigation discussion.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Peachtree Middle School Football Field Turf Conversion",
+            "description": "Presentation of informal estimates for field turf conversion. DeKalb County School District committed to paying costs over $1M. Request for Proposals would be released if Council wishes to proceed.",
+            "presenter": "Rachel Waldron",
+            "note": "DeKalb County representative Andrew Ziffer confirmed district commitment to cost overages"
+        },
+        {
+            "title": "Brook Run Maintenance Facility Green Building Certification",
+            "description": "Comparison of LEED vs EarthCraft certification options for maintenance facility. EarthCraft consultant fees estimated at $24,000.",
+            "presenter": "Michael Smith"
+        },
+        {
+            "title": "Resolution for Budget Amendment for Fiscal Year 2024",
+            "description": "Budget amendment for fiscal year 2024 cleanup.",
+            "presenter": "Richard Platto"
+        }
+    ],
+    "publicComments": {
+        "fieldTurfSupport": [
+            "Nina Arnold",
+            "Eric Oliver", 
+            "Lindsay Gaines"
+        ],
+        "other": [
+            "Gail Bowler (beautification and lot sale)",
+            "Betsy ? (zip line noise concerns)",
+            "Andrew Ziffer (DeKalb County commitment)"
+        ]
+    },
+    "councilComments": [
+        {
+            "member": "Seconder",
+            "content": "Statement supporting Israel's right to exist and defend themselves, condemning violence and hatred, supporting democracies and freedom worldwide, commenting on Ukraine war casualties."
+        }
+    ]
+}
